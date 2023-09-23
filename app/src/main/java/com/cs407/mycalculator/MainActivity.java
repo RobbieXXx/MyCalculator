@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToActivity(Integer i){
-        Intent intent = new Intent (this, Output.class);
+        Intent intent = new Intent (this, CalculatorActivity2.class);
         if(i == null){
             intent.putExtra("message","ERROR");
         }
